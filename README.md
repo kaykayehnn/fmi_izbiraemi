@@ -1,4 +1,4 @@
-# FMI izbiraemi
+# FMI Izbiraemi
 
 This project is a parody clone of the original FMI website http://izbiraemi.fmi-plovdiv.org/
 
