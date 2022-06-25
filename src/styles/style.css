@@ -1,0 +1,115 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  filter: invert(1);
+  color: #ffffff;
+}
+
+.header {
+  background-color: rgba(0, 33, 87, 0.9);
+  color: #ffffff;
+}
+
+.header-title {
+  margin-left: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav li * {
+  cursor: pointer;
+}
+
+nav li button {
+  padding: 4px;
+}
+
+.background {
+  position: relative;
+  background: url("../images/fmi-image.jpg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blue-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 33, 87, 0.76);
+}
+
+.home-title {
+  color: #ffffff;
+  font-size: 2.5em;
+  font-weight: 700;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  margin: 20px;
+  padding: 20px;
+}
+
+.login-button {
+  padding: 20px;
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+  border-radius: 3px;
+}
+
+.login-button:hover {
+  color: #fff;
+  background-color: rgb(42, 48, 54);
+  border-color: rgb(42, 48, 54);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  padding: 20px 0;
+  background: #04091e;
+  color: #fff;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  color: green;
+}
