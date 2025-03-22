@@ -1,3 +1,3 @@
 <footer class="footer">
-    ФМИ Пловдив 2024
+    ФМИ Пловдив <i>2024</i>
 </footer>
