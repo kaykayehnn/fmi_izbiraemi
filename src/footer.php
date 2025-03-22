@@ -1,3 +1,3 @@
 <footer class="footer">
-    ФМИ Пловдив
+    ФМИ Пловдив 2024
 </footer>
